@@ -7,6 +7,7 @@ import { sepolia } from "thirdweb/chains";
 import { getContractMetadata } from "thirdweb/extensions/common";
 import { claimTo, getActiveClaimCondition, getTotalClaimedSupply, nextTokenIdToMint } from "thirdweb/extensions/erc721";
 import { useState } from "react";
+import "@fontsource/orbitron"; // Import Orbitron font
 
 export default function Home() {
   const account = useActiveAccount();

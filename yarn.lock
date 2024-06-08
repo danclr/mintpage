@@ -311,6 +311,11 @@
   resolved "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.2.2.tgz#d8bae93ac8b815b2bd7a98078cf91e2724ef11e5"
   integrity sha512-J4yDIIthosAsRZ5CPYP/jQvUAQtlZTTD/4suA08/FEnlxqW3sKS9iAhgsa9VYLZ6vDHn/ixJgIqRQPotoBjxIw==
 
+"@fontsource/orbitron@^5.0.19":
+  version "5.0.19"
+  resolved "https://registry.yarnpkg.com/@fontsource/orbitron/-/orbitron-5.0.19.tgz#d4664a4746ddaa35ae72453ab870b8a96875a6fd"
+  integrity sha512-Lr/v3Zq/9Q7gAU+XFH9AEExqhCwTKYvJZsBN7wvVk1Tkl0M0fIbW7qh5Bk4b5rrTqT93hj+gsbd64NBdVTZKuw==
+
 "@google/model-viewer@2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@google/model-viewer/-/model-viewer-2.1.1.tgz#37c51143740c07c592d5cccbc8cfaa8be8b7ef82"
