@@ -50,7 +50,7 @@ export default function Home() {
         <div className="text-left mr-8 mt-8">
           <p className="intro-text">Join the adventure by minting your first NFT for a discount!</p>
           <p className="info-text mt-5">
-            Discover a unique collection of NFTs, By minting your first NFT, you'll be part of an exclusive community that values creativity and innovation.
+            Discover a unique collection of NFTs, By minting your first NFT, you&apos;ll be part of an exclusive community that values creativity and innovation.
             <br /><br />
             <span style={{ color: 'cyan' }}>Total supply: 2000</span>
             <br /><br />
