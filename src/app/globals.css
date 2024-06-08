@@ -3,20 +3,100 @@
 @tailwind utilities;
 
 :root {
-	line-height: 1.5;
-	font-weight: 400;
-	font-synthesis: none;
-	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-family: 'Inter', sans-serif;
-	font-optical-sizing: auto;
-	font-style: normal;
-	font-variation-settings: 'slnt' 0;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: 'slnt' 0;
 }
 
-@layer base {
-	body {
-		@apply bg-zinc-950 text-neutral-200;
-	}
+body {
+  background-color: #010409; /* Set the background color of the whole page */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.intro-text {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px white;
+}
+
+.info-text {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px white;
+}
+
+.frame-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.image-container, .connect-wallet-container, .balance-mint-container {
+  border: 2px solid white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px white;
+  width: 300px; /* Fixed width */
+  padding: 20px; /* Padding for consistent sizing */
+  margin-bottom: 0; /* No margin between the frames */
+}
+
+.connect-wallet-container, .balance-mint-container {
+  padding: 0; /* Remove padding to fit the button */
+  border-top: none; /* Remove top border to connect the frames */
+}
+
+.connect-wallet-text, .balance-text, .mint-text {
+  color: white;
+  font-size: 20px;
+  text-shadow: 0 0 10px white;
+}
+
+.balance-mint-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px; /* Remove vertical padding */
+  height: 40px; /* Set a fixed height */
+  align-items: center; /* Center items vertically */
+}
+
+.separator {
+  border-left: 2px solid white;
+  height: 24px; /* Adjust height to match text */
+  margin: 0 10px; /* Adjust margin to space out the separator */
+}
+
+.mint-text {
+  flex: 1; /* Allow mint-text to take up all available space */
+  display: flex;
+  align-items: center;
+}
+
+.mint-text .thirdweb-button {
+  width: 100%; /* Ensure the button takes up the full width */
+  height: 80%; /* Ensure the button takes up the full height */
+  padding: 0; /* Remove internal padding */
+}
+
+.text-left {
+  max-width: 300px; /* Ensure the text has a maximum width */
+}
+
+.main-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0; /* Remove padding */
+  margin: 0 20px 0 0; /* Add 20px margin to the right */
 }
